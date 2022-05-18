@@ -1,0 +1,20 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AliElkomy/testRepo.git
+git push -u origin main
+
+'انشاء فرع جديد
+git branch NeWBranch
+للوقوف على الفرع الجديد
+git checkout NeWBranch
+
+لانشاء فرع والانتقال اليه مباشرة
+git checkout -b NewBranch
+
+لاظهار كل الفروع 
+git branch
+
+انشاء فرع من فرع
+git branch -b son father
